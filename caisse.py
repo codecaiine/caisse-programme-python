@@ -71,8 +71,3 @@ elif reste == 5:
     print("Nous pouvons vous offrir des BONBONS à la place .")
 else:
     print("La monnaie est : ", reste, "FCFA")
-    
-
-if reste <= 25 or reste <= 10 or reste <= 5:
-    print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
-    print("Nous pouvons vous offrir des BONBONS à la place .")
