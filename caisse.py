@@ -33,3 +33,6 @@ while reste > 5000:
 while reste > 2000:
     deux_mille +=1
     reste-= 2000
+while reste > 1000:
+    mille +=1
+    reste-= 1000
