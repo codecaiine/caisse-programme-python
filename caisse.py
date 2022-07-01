@@ -10,3 +10,5 @@ cent = 0
 cinqante = 0
 
 valeur = 1
+while valeur !=0:
+    
