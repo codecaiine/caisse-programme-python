@@ -39,3 +39,6 @@ while reste > 1000:
 while reste > 500:
     cinq_cent +=1
     reste-= 500
+while reste > 200:
+    deux_cent +=1
+    reste-= 200
