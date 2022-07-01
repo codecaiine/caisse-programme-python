@@ -13,4 +13,5 @@ valeur = 1
 while valeur !=0:
         valeur = int(input("Veuillez saisir le prix de l article : "))
         listeValeur.append(valeur)
+        total = total + valeur
     
