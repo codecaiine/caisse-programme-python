@@ -18,3 +18,5 @@ while valeur !=0:
         print("Le total des achats est : ", total, " FCFA")
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
+
+montant_remis = int(input('Saisissez le montant rémis par le client : '))
