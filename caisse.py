@@ -8,6 +8,7 @@ cinq_cent = 0
 deux_cent = 0
 cent = 0
 cinqante = 0
+vingt_cinq = 0
 
 valeur = 1
 while valeur !=0:
