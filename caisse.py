@@ -61,6 +61,7 @@ print('Il y a {} billets de 500 FCFA'.format(cinq_cent))
 print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
 print('Il y a {} pièce(s) de 100 FCFA'.format(cent))
 print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
+print('Il y a {} pièce(s) de 25 FCFA'.format(vingt_cinq))
 
 if reste <= 25 or reste <= 10 or reste <= 5:
     print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
