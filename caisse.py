@@ -20,3 +20,4 @@ while valeur !=0:
        print("Erreur! Veuillez entrer un prix correcte !")
 
 montant_remis = int(input('Saisissez le montant rémis par le client : '))
+print("Le client a rémis")
