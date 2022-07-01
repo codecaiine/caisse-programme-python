@@ -23,3 +23,7 @@ montant_remis = int(input('Saisissez le montant rémis par le client : '))
 print("Le client a rémis")
 reste = montant_remis - total
 print("Il vous reste ", reste, " FCFA comme monnaie restant .")
+
+while reste > 10000:
+    dix_mille +=1
+    reste-= 10000
