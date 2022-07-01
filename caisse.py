@@ -51,3 +51,4 @@ while reste > 50:
 
 print('Il y a {} billet(s) de 10.000 FCFA'.format(dix_mille))
 print('Il y a {} billet(s) de 5.000 FCFA'.format(cinq_mille))
+print('Il y a {} billet(s) de 2.000 FCFA'.format(deux_mille))
