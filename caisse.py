@@ -66,6 +66,9 @@ print('Il y a {} pièce(s) de 25 FCFA'.format(vingt_cinq))
 if reste == 10:
     print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
     print("Nous pouvons vous offrir des BONBONS à la place .")
+elif reste == 5:
+    print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+    print("Nous pouvons vous offrir des BONBONS à la place .")
 
     
 
