@@ -42,3 +42,6 @@ while reste > 500:
 while reste > 200:
     deux_cent +=1
     reste-= 200
+while reste > 100:
+    cent +=1
+    reste-= 100
