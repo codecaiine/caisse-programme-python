@@ -45,3 +45,6 @@ while reste > 200:
 while reste > 100:
     cent +=1
     reste-= 100
+while reste > 50:
+    cinqante +=1
+    reste-= 50
