@@ -49,6 +49,9 @@ while reste > 100:
 while reste > 50:
     cinqante +=1
     reste-= 50
+while reste > 25:
+    vingt_cinq +=1
+    reste-= 25
 
 print('Il y a {} billet(s) de 10.000 FCFA'.format(dix_mille))
 print('Il y a {} billet(s) de 5.000 FCFA'.format(cinq_mille))
