@@ -20,9 +20,9 @@ while prix_article !=0:
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
 
-montant_remis = int(input('Saisissez le montant rémis par le client : '))
+somme_remis = int(input('Saisissez le somme rémis par le client : '))
 print("Le client a rémis")
-reste = montant_remis - total_achats
+reste = somme_remis - total_achats
 print("Il vous reste ", reste, " FCFA comme monnaie restant .")
 
 while reste > 10000:
