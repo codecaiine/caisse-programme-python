@@ -10,12 +10,12 @@ cent = 0
 cinqante = 0
 vingt_cinq = 0
 
-valeur = 1
-while valeur !=0:
+prix_article = 1
+while prix_article !=0:
     try:
-        valeur = int(input("Veuillez saisir le prix de l article : "))
-        liste_achats.append(valeur)
-        total = total + valeur
+        prix_article = int(input("Veuillez saisir le prix de l article : "))
+        liste_achats.append(prix_article)
+        total = total + prix_article
         print("Le total des achats est : ", total, " FCFA")
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
