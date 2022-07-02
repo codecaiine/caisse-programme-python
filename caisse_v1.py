@@ -23,7 +23,7 @@ while prix_article !=0:
 somme_remis = int(input('Saisissez le somme rémis par le client : '))
 print("Le client a rémis")
 monnaie = somme_remis - total_achats
-print("Il vous monnaie ", monnaie, " FCFA comme monnaie restant .")
+print("Il vous reste ", monnaie, " FCFA comme monnaie restant .")
 
 while monnaie > 10000:
     dix_mille +=1
@@ -64,10 +64,10 @@ print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
 print('Il y a {} pièce(s) de 25 FCFA'.format(vingt_cinq))
 
 if monnaie == 10:
-    print("Il vous monnaie ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+    print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
     print("Nous pouvons vous offrir des BONBONS à la place .")
 elif monnaie == 5:
-    print("Il vous monnaie ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+    print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
     print("Nous pouvons vous offrir des BONBONS à la place .")
 else:
     print("La monnaie est : ", monnaie, "FCFA")
