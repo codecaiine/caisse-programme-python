@@ -1,5 +1,5 @@
-total = 0
-listeValeur = []
+total_achat = 0
+liste_achat = []
 dix_mille = 0
 cinq_mille = 0
 deux_mille = 0
