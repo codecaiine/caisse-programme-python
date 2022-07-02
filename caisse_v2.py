@@ -1,5 +1,5 @@
 total_achat = 0
-liste_prix = []
+liste_achat = []
 dix_mille = 0
 cinq_mille = 0
 deux_mille = 0
@@ -13,73 +13,7 @@ vingt_cinq = 0
 print("Bienvenue Boutique")
 
 total_recettes = 1
-for client in range(1,5):
-    print("Entrez la facture du client")
-    print(client)
+for client in range(1,6):
+    print("Entrez la facture du client", client)
     if client > 1 or client < 5:
-        prix_article = 1
-while prix_article !=0:
-    try:
-        prix_article = int(input("Veuillez saisir le prix de l article : "))
-        liste_prix.append(prix_article)
-        total_achats = total_achats + prix_article
-        print("Le total des achats est : ", total_achats, " FCFA")
-    except ValueError:
-       print("Erreur! Veuillez entrer un prix correcte !")
-
-somme_remis = int(input('Saisissez le somme rémis par le client : '))
-print("Le client a rémis")
-monnaie = somme_remis - total_achats
-print("Il vous reste ", monnaie, " FCFA comme monnaie restant .")
-
-while monnaie > 10000:
-    dix_mille +=1
-    monnaie-= 10000
-while monnaie > 5000:
-    cinq_mille +=1
-    monnaie-= 5000
-while monnaie > 2000:
-    deux_mille +=1
-    monnaie-= 2000
-while monnaie > 1000:
-    mille +=1
-    monnaie-= 1000
-while monnaie > 500:
-    cinq_cent +=1
-    monnaie-= 500
-while monnaie > 200:
-    deux_cent +=1
-    monnaie-= 200
-while monnaie > 100:
-    cent +=1
-    monnaie-= 100
-while monnaie > 50:
-    cinqante +=1
-    monnaie-= 50
-while monnaie > 25:
-    vingt_cinq +=1
-    monnaie-= 25
-
-print('Il y a {} billet(s) de 10.000 FCFA'.format(dix_mille))
-print('Il y a {} billet(s) de 5.000 FCFA'.format(cinq_mille))
-print('Il y a {} billet(s) de 2.000 FCFA'.format(deux_mille))
-print('Il y a {} billet(s) de 1.000 FCFA'.format(mille))
-print('Il y a {} billets de 500 FCFA'.format(cinq_cent))
-print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
-print('Il y a {} pièce(s) de 100 FCFA'.format(cent))
-print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
-print('Il y a {} pièce(s) de 25 FCFA'.format(vingt_cinq))
-
-if monnaie == 10:
-    print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
-    print("Nous pouvons vous offrir des BONBONS à la place .")
-elif monnaie == 5:
-    print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
-    print("Nous pouvons vous offrir des BONBONS à la place .")
-else:
-    print("La monnaie est : ", monnaie, "FCFA")
-
-if monnaie%5 == 0:
-    print("Merci pour votre achat ...")
-else:
-    print("Pas de monnaie disponible ...")
+        print("Algo")
