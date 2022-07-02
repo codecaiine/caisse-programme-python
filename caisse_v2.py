@@ -15,3 +15,6 @@ print("Bienvenue Boutique")
 for client in range(1,5):
     print("Entrez la facture du client")
     print(client)
+
+    if client > 1 or client < 5:
+        
