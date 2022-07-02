@@ -1,5 +1,5 @@
 total_achats = 0
-liste_achats = []
+liste_prix = []
 dix_mille = 0
 cinq_mille = 0
 deux_mille = 0
@@ -14,7 +14,7 @@ prix_article = 1
 while prix_article !=0:
     try:
         prix_article = int(input("Veuillez saisir le prix de l article : "))
-        liste_achats.append(prix_article)
+        liste_prix.append(prix_article)
         total_achats = total_achats + prix_article
         print("Le total des achats est : ", total_achats, " FCFA")
     except ValueError:
