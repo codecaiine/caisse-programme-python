@@ -9,3 +9,9 @@ deux_cent = 0
 cent = 0
 cinqante = 0
 vingt_cinq = 0
+
+print("Bienvenue Boutique")
+
+for client in range(1,5):
+    print("Entrez la facture du client")
+    print(client)
