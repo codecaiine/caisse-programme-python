@@ -15,14 +15,14 @@ while prix_article !=0:
     try:
         prix_article = int(input("Veuillez saisir le prix de l article : "))
         liste_achats.append(prix_article)
-        total = total + prix_article
-        print("Le total des achats est : ", total, " FCFA")
+        total_achats = total_achats + prix_article
+        print("Le total des achats est : ", total_achats, " FCFA")
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
 
 montant_remis = int(input('Saisissez le montant rémis par le client : '))
 print("Le client a rémis")
-reste = montant_remis - total
+reste = montant_remis - total_achats
 print("Il vous reste ", reste, " FCFA comme monnaie restant .")
 
 while reste > 10000:
