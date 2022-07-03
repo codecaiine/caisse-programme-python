@@ -25,6 +25,7 @@ for client in range(1,3):
             montant_client = int(input('Saisissez le montant rémis par le client : '))
             print("Le client a rémis")
             monnaie = montant_client - total_achats
+            print("Il vous reste ", monnaie, " FCFA comme monnaie restant .")
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
