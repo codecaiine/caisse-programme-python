@@ -74,5 +74,10 @@ for client in range(1,3):
         else:
             print("La monnaie est : ", monnaie, "FCFA")
 
+        if monnaie%5 == 0:
+            print("Merci pour votre achat ...")
+        else:
+            print("Pas de monnaie disponible ...")
+
         total_recettes += total_achats
 print("Total recette", total_recettes)
