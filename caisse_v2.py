@@ -26,6 +26,10 @@ for client in range(1,3):
         print("Le client a rémis")
         monnaie = montant_client - total_achats
         print("Il vous reste ", monnaie, " FCFA comme monnaie restant .")
+        
+        while monnaie > 10000:
+            dix_mille +=1
+            monnaie-= 10000
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
