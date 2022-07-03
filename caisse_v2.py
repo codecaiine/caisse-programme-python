@@ -42,6 +42,9 @@ for client in range(1,3):
         while monnaie > 500:
             cinq_cent +=1
             monnaie-= 500
+        while monnaie > 200:
+            deux_cent +=1
+            monnaie-= 200
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
