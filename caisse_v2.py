@@ -62,7 +62,8 @@ for client in range(1,3):
         print('Il y a {} billets de 500 FCFA'.format(cinq_cent))
         print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
         print('Il y a {} pièce(s) de 100 FCFA'.format(cent))
-
+        print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
+        
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
