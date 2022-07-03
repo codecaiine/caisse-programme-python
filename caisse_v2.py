@@ -65,5 +65,14 @@ for client in range(1,3):
         print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
         print('Il y a {} pièce(s) de 25 FCFA'.format(vingt_cinq))
 
+        if monnaie == 10:
+            print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+            print("Nous pouvons vous offrir des BONBONS à la place .")
+        elif monnaie == 5:
+            print("Il vous reste ", monnaie," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+            print("Nous pouvons vous offrir des BONBONS à la place .")
+        else:
+            print("La monnaie est : ", monnaie, "FCFA")
+
         total_recettes += total_achats
 print("Total recette", total_recettes)
