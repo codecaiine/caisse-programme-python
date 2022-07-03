@@ -12,7 +12,7 @@ vingt_cinq = 0
 
 print("Bienvenue Boutique")
 
-total_recettes = 1
+total_recettes = 0
 for client in range(1,6):
     print("Entrez la facture du client numéro ", client, " . ")
     if client > 1 or client < 6:
