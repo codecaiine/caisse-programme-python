@@ -60,7 +60,7 @@ for client in range(1,3):
         print('Il y a {} billet(s) de 2.000 FCFA'.format(deux_mille))
         print('Il y a {} billet(s) de 1.000 FCFA'.format(mille))
         print('Il y a {} billets de 500 FCFA'.format(cinq_cent))
-
+        print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
