@@ -56,7 +56,8 @@ for client in range(1,3):
             monnaie-= 25
         
         print('Il y a {} billet(s) de 10.000 FCFA'.format(dix_mille))
-        
+        print('Il y a {} billet(s) de 5.000 FCFA'.format(cinq_mille))
+
 
         total_recettes += total_achats
 print("Total recette", total_recettes)
