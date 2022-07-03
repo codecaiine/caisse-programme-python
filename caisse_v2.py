@@ -19,7 +19,7 @@ for client in range(1,3):
         prix_article = 1
         while prix_article !=0:
             prix_article = int(input("Veuillez saisir le prix de l article : "))
-            total_achats = total_achats + prix_article
+            total_achats += prix_article
             print("Le total des achats est : ", total_achats, " FCFA")
-        total_recettes = total_recettes + total_achats
+        total_recettes += total_achats
 print("Total recette", total_recettes)
